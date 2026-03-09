@@ -3,11 +3,21 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #262630;
+  background-color: #282836;
 }
 
 .navbar .navlinks {
   list-style: none;
   display: flex;
   gap: 1rem;
+}
+
+.navbar .navlinks a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar .navlinks a:hover {
+  color: #fb6161;
 }
