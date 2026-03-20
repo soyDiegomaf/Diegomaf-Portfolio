@@ -3,24 +3,24 @@ import style from './AboutSection.module.css'
 function AboutSection() {
   return (
     <section id="home" className={style.card}>
-        <h1>Diego M. Andino Fiallos</h1>
+        <h1>Diego M. Andino F.</h1>
         <h2>Software Engineer</h2>
         <p>Berlin, Germany</p>
-        <div className="links">
-          <div>
+        <div className={style.links}>
+          <div className={style.cv}>
             <a href="">
-              <img src="/assets/cv.png" alt="CV " />
-              <p>Download CV</p>
+              <i class="fa-solid fa-file-arrow-down"></i>
+              <p>Resume</p>
             </a>
           </div>
           <a href="">
-            <img src="/assets/linkedin.png" alt="LinkedIn " />
+            <i class="fa-brands fa-linkedin-in"></i>        
           </a>
           <a href="">
-            <img src="/assets/github.png" alt="GitHub " />
+            <i class="fa-brands fa-github"></i>
           </a>
           <a href="">
-            <img src="/assets/mail.png" alt="Email " />
+            <i class="fa-solid fa-envelope"></i>
           </a>
         </div>
     </section>
