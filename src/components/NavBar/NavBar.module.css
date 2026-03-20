@@ -2,8 +2,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
-  background-color: #282836;
+  padding: 1rem 4rem;
+  border-radius: 50px;
+  background-color: #161620;
+  height: 40px;
+  margin: 25px 100px;
+  border: #372252 solid 3px;
 }
 
 .navbar .navlinks {
@@ -19,5 +23,5 @@
 }
 
 .navbar .navlinks a:hover {
-  color: #fb6161;
+  color: #986da6;
 }
