@@ -49,6 +49,8 @@
         border: 2px solid #6C3CAA;
         padding: 0px 10px;
         border-radius: 25px;
+        transition: color 0.3s;
+
         
         p {
             color: #6C3CAA;
@@ -61,6 +63,24 @@
             justify-content: center;
             align-items: center;
             text-decoration: none;
+        }
+        i {
+        color: #6C3CAA;
+        font-size: 1.5rem;
+        }
+    }
+
+    .cv:hover {
+        border: 2px solid #9b59b6;
+
+        p {
+            color: #9b59b6;
+        }
+        a {
+            color: #9b59b6;
+        }
+        i {
+            color: #9b59b6;
         }
     }
 }

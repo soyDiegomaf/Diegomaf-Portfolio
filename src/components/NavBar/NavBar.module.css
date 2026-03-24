@@ -8,6 +8,8 @@
   height: 40px;
   margin: 25px 100px;
   border: #372252 solid 3px;
+  position: sticky;
+  top: 25px;
 }
 
 .navbar .navlinks {
