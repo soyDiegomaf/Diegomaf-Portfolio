@@ -1,7 +1,7 @@
 .techBadge {
   display: flex;
   padding: 0px 20px;
-  font-size: 1em;
+  font-size: 0.8rem;
   color: #fff;
   background-color: #161620;
   border-radius: 20px;
@@ -10,7 +10,7 @@
 
   i {
     margin-right: 10px;
-    font-size: 1.5em;
+    font-size: 1rem;
   }
   p {
     margin: 10px 0px;
