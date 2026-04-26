@@ -1,19 +1,16 @@
 .techBadge {
-  display: flex;
-  padding: 0px 20px;
-  font-size: 0.8rem;
-  color: #fff;
-  background-color: #161620;
-  border-radius: 20px;
+  display: inline-flex;
   align-items: center;
-  border: 2px solid #6C3CAA;
+  justify-content: center;
 
-  i {
-    margin-right: 10px;
-    font-size: 1rem;
-  }
-  p {
-    margin: 10px 0px;
-    font-weight: bold;
-  }
+  padding: 0.55rem 0.9rem;
+
+  color: #ddd8f0;
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(152, 109, 166, 0.3);
+  border-radius: 999px;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
