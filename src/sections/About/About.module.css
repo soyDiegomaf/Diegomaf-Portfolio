@@ -1,0 +1,81 @@
+.about {
+  width: 75%;
+  margin: 5rem auto 2rem;
+}
+
+.card {
+  padding: 3rem;
+  border-radius: 28px;
+  background: var(--base);
+  border: 1px solid var(--highlight);
+}
+
+.card h1 {
+  color: var(--text);
+  font-size: 84px;
+  line-height: 1;
+  margin: 0px 0px;
+}
+
+.card h2 {
+  color: var(--accent);
+  font-size: 42px;
+  font-weight: 500;
+  margin: 5px 0px;
+}
+
+.location {
+  color: var(--text-muted);
+  font-size: 24px;
+  margin: 5px 0px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: var(--text);
+  background-color: var(--crust);
+  border: 1px solid var(--mantel);
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.links a:hover {
+  transform: translateY(-3px);
+  background-color: var(--sublayer-0);
+  border-color: var(--accent);
+}
+
+.links i {
+  font-size: 20px;
+}
+
+.resumeButton {
+  gap: 10px;
+  padding: 0px 40px;
+}
+
+.resumeButton span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media (max-width: 700px) {
+  /* Para despues -- para mobile */
+}
