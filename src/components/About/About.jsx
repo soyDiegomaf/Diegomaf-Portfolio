@@ -1,4 +1,5 @@
 import styles from "./About.module.css";
+import TechStack from "../TechStack/TechStack.jsx"
 
 function AboutSection() {
   return (
@@ -24,6 +25,7 @@ function AboutSection() {
             <i className="fa-solid fa-envelope"></i>
           </a>
         </div>
+        <TechStack></TechStack>
       </div>
     </section>
   );

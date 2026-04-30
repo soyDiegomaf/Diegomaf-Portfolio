@@ -1,16 +1,16 @@
 .techbadges {
-  width: 75%;
-  margin: 45px auto 10px;
+  width: 100%;
+  margin: 0px;
 }
 
 .card {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 40px;
+  padding: 30px 0px 0px 0px;
   border-radius: 28px;
-  background: var(--base);
-  border: 1px solid var(--highlight);
+  background: var(--crust);
+  /* border: 1px solid var(--highlight); */
 }
 
 .techcontainer {
@@ -19,6 +19,7 @@
   margin: 5px 5px;
   padding: 10px 25px;
   align-items: center;
+  background: var(--sublayer-0);
   border:  2px solid var(--highlight);
   border-radius: 50px;
 }

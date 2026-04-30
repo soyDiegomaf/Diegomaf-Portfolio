@@ -1,13 +1,13 @@
 .about {
   width: 75%;
-  margin: 45px auto 10px;
+  margin: 25px auto 10px;
 }
 
 .card {
   padding: 60px;
   border-radius: 28px;
-  background: var(--base);
-  border: 1px solid var(--highlight);
+  background: var(--crust);
+ /* border: 1px solid var(--highlight); */
 }
 
 .card h1 {
@@ -44,7 +44,7 @@
   justify-content: center;
   text-decoration: none;
   color: var(--text);
-  background-color: var(--crust);
+  background-color: var(--base);
   border: 1px solid var(--mantel);
   border-radius: 50px;
   width: 45px;
