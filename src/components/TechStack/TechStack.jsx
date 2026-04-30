@@ -1,6 +1,6 @@
-import styles from './TechBadges.module.css'
+import styles from './TechStack.module.css'
 
-function TechBadges() {
+function TechStack() {
     const languages = ['JavaScript', 'TypeScript', 'HTML', 'CSS', 'Java', 'Python', 'SQL', 'PostgreSQL'];
     const frameworks = ['React', 'Node.js', 'TailwindCSS', 'TensorFlow', 'Spring Boot', 'Electron', 'OpenCV', 'Express'];
     const tools =['Git', 'Figma', 'AWS', 'Docker', 'Vercel', 'Render'];
@@ -37,4 +37,4 @@ function TechBadges() {
     );
 }
 
-export default TechBadges;
+export default TechStack;

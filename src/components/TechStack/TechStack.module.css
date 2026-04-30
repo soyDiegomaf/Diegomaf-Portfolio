@@ -4,7 +4,10 @@
 }
 
 .card {
-  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
   border-radius: 28px;
   background: var(--base);
   border: 1px solid var(--highlight);
@@ -13,8 +16,8 @@
 .techcontainer {
   display:inline-flex;
   flex-wrap: wrap;
-  margin: 5px 20px;
-  padding: 10px 30px;
+  margin: 5px 5px;
+  padding: 10px 25px;
   align-items: center;
   border:  2px solid var(--highlight);
   border-radius: 50px;

@@ -1,13 +1,13 @@
 import NavBar from './components/NavBar/NavBar'
 import About from './components/About/About'
-import TechBadges from './components/TechBadges/TechBadges'
+import TechStack from './components/TechStack/TechStack'
 
 function App() {
   return (
     <>
     <NavBar/>
     <About/>
-    <TechBadges/>
+    <TechStack/>
     </>
   )
 }
