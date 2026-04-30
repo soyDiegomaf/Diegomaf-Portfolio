@@ -1,0 +1,21 @@
+.techbadges {
+  width: 75%;
+  margin: 45px auto 10px;
+}
+
+.card {
+  padding: 60px;
+  border-radius: 28px;
+  background: var(--base);
+  border: 1px solid var(--highlight);
+}
+
+.techcontainer {
+  display:inline-flex;
+  flex-wrap: wrap;
+  margin: 5px 20px;
+  padding: 10px 30px;
+  align-items: center;
+  border:  2px solid var(--highlight);
+  border-radius: 50px;
+}
