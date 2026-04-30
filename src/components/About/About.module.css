@@ -7,7 +7,7 @@
   padding: 60px;
   border-radius: 28px;
   background: var(--crust);
- /* border: 1px solid var(--highlight); */
+  border: 1px solid var(--highlight);
 }
 
 .card h1 {
