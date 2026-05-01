@@ -4,16 +4,21 @@
 }
 
 .card {
-  display: flex;
-  padding: 60px;
+  padding: 10px 60px;
   border-radius: 28px;
   background: var(--crust);
   border: 1px solid var(--highlight);
 }
 
+.experiencecontainer {
+  display: flex;
+  background: var(--crust);
+  /* border: 1px solid var(--highlight); */
+}
+
 .type {
   width: 20%;
-  padding: 30px;
+  padding: 10px 20px;
   margin: 0px 10px 0px 0px;
   border-radius: 28px;
   background: var(--crust);
@@ -22,7 +27,7 @@
 
 .info {
   width: 80%;
-  padding: 30px;
+  padding: 10px 20px;
   margin: 0px 0px 0px 10px;
 
   border-radius: 28px;
