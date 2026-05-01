@@ -23,14 +23,15 @@
   border-radius: 28px;
   background: var(--crust);
   border: 1px solid var(--highlight);
+  color: var(--accent);
 }
 
 .info {
   width: 80%;
   padding: 10px 20px;
   margin: 0px 0px 0px 10px;
-
   border-radius: 28px;
   background: var(--crust);
   border: 1px solid var(--highlight);
+  color: var(--text);
 }

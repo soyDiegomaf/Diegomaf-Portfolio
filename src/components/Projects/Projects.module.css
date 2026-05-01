@@ -1,0 +1,11 @@
+.projects {
+  width: 75%;
+  margin: 25px auto 10px;
+}
+
+.card {
+  padding: 60px;
+  border-radius: 28px;
+  background: var(--crust);
+  border: 1px solid var(--highlight);
+}
