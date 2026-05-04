@@ -12,7 +12,7 @@ function Projects () {
                         <img src="" alt="project1" />
                     </div>
                     <div className={styles.information}>
-                        <h1>Project 1</h1>
+                        <h2>Project 1</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium mollitia, modi rerum veniam quos dignissimos cumque, quas officia maiores in nesciunt. Repudiandae rem ex repellat aliquam incidunt fugit eveniet numquam.</p>
                     </div>            
                 </div>
@@ -22,7 +22,7 @@ function Projects () {
                         <img src="" alt="project1" />
                     </div>
                     <div className={styles.information}>
-                        <h1>Project 1</h1>
+                        <h2>Project 1</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium mollitia, modi rerum veniam quos dignissimos cumque, quas officia maiores in nesciunt. Repudiandae rem ex repellat aliquam incidunt fugit eveniet numquam.</p>
                     </div>            
                 </div>
@@ -32,7 +32,7 @@ function Projects () {
                         <img src="" alt="project1" />
                     </div>
                     <div className={styles.information}>
-                        <h1>Project 1</h1>
+                        <h2>Project 1</h2>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium mollitia, modi rerum veniam quos dignissimos cumque, quas officia maiores in nesciunt. Repudiandae rem ex repellat aliquam incidunt fugit eveniet numquam.</p>
                     </div>            
                 </div>

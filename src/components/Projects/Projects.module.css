@@ -19,4 +19,8 @@
   padding: 25px;
   border-radius: 28px;
   border: 1px solid var(--highlight);
+
+  h2 {
+    color: var(--accent);
+  }
 }
