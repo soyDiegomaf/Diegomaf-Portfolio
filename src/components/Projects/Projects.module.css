@@ -9,3 +9,14 @@
   background: var(--crust);
   border: 1px solid var(--highlight);
 }
+
+.projectsection {
+  display: flex;
+}
+
+.projectcontainer {
+  width: 30%;
+  padding: 25px;
+  border-radius: 28px;
+  border: 1px solid var(--highlight);
+}
