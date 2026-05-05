@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <header className={styles.navbar}>
       <a href="#about" className={styles.logo}>
-        Diego Andino
+        DIEGOMAF
       </a>
 
       <nav>
@@ -18,9 +18,9 @@ function NavBar() {
             <li>
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#contact">Contact</a>
-            </li>
+            </li> */}
         </ul>
       </nav>
 
