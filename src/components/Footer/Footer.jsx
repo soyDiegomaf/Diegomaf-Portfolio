@@ -4,7 +4,7 @@ function Footer () {
     return (
         <div className={styles.footer}>
             <div className={styles.card}>
-                <h1>contact me</h1>
+                <h3>Contact Me</h3>
 
                 <div className={styles.links}>
                     <a className={styles.resumeButton} href="/Diego-Andino-Resume.pdf" download>

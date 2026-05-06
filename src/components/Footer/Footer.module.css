@@ -4,6 +4,9 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 60px;
   border-radius: 28px;
   background: var(--crust);
