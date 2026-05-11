@@ -11,13 +11,22 @@
   --text: hsl(253, 38%, 79%);
   --text-muted: hsl(253, 25%, 75%);
 
+  /* Font Size for About and Navbar */
   --header1: 46px;
   --header2: 36px;
   --header3: 28px;
+  --header4: 22px;
   --content: 16px;
 
-  --paragraph: 10px;
+  /* Font Size for Experiences and Education */
+  --exp-header1: 36px;
+  --exp-header2: 26px;
+  --exp-header3: 18px;
+  --exp-header4: 16px;
+  --exp-content: 12px;
 
+
+  
   font-family: monospace, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
