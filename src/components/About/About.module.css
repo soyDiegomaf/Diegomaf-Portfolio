@@ -12,21 +12,21 @@
 
 .card h1 {
   color: var(--text);
-  font-size: 84px;
+  font-size: var(--header1);
   line-height: 1;
   margin: 0px 0px;
 }
 
 .card h2 {
   color: var(--accent);
-  font-size: 42px;
+  font-size: var(--header2);
   font-weight: 500;
   margin: 5px 0px;
 }
 
 .location {
   color: var(--text-muted);
-  font-size: 24px;
+  font-size: var(--header3);
   margin: 5px 0px;
 }
 
@@ -63,7 +63,7 @@
 }
 
 .links i {
-  font-size: 20px;
+  font-size: var(--content);
 }
 
 .resumeButton {
@@ -72,7 +72,7 @@
 }
 
 .resumeButton span {
-  font-size: 15px;
+  font-size: var(--content);
   font-weight: 600;
 }
 

@@ -14,12 +14,13 @@
 }
 
 .techcontainer {
-  display:inline-flex;
+  display: inline-flex;
   flex-wrap: wrap;
   margin: 5px 5px;
   padding: 10px 25px;
   align-items: center;
   background: var(--sublayer-0);
-  border:  2px solid var(--highlight);
+  border: 2px solid var(--highlight);
+  font-size: var(--content);
   border-radius: 50px;
 }

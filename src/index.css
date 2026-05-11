@@ -11,12 +11,17 @@
   --text: hsl(253, 38%, 79%);
   --text-muted: hsl(253, 25%, 75%);
 
+  --header1: 46px;
+  --header2: 36px;
+  --header3: 28px;
+  --content: 16px;
+
+  --paragraph: 10px;
+
   font-family: monospace, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color: var(--text);
-
-  color-scheme: light dark;
   background-color: var(--crust);
 }
 
